@@ -1,8 +1,8 @@
-# ProyectoFinal
+# PROYECTO FINAL
 
 # Tecnologías de información emergentes: NLP
 
-## PROYECTO FINAL
+## Modelos multimodales
 
 #### _Clasificadores multi-clase multimodales_
 ---

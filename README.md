@@ -12,12 +12,6 @@ https://colab.research.google.com/drive/1gUFre0aOY0Zyfm2ADFRlKQ4s5q2OVpQa?usp=sh
 
 ---
 
-#### Link modelos entrenados e historial (history) de entrenamiento:
-
-https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sharing
-
----
-
 ## Funcionalidades
 
 * Analisis de sentimientos (Positivo/Negativo) sobre

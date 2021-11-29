@@ -15,7 +15,7 @@ https://colab.research.google.com/drive/1gUFre0aOY0Zyfm2ADFRlKQ4s5q2OVpQa?usp=sh
 ## Funcionalidades
 
 * Analisis de sentimientos (Negativo/Neutro/Positivo) sobre
-    * Reviews y datos tabulares de aplicaciones de la PlayStore usando
+    * Reviews y datos tabulares de aplicaciones de la PlayStore usando Multimodal Transformers
 
 * Extra
     * Modelo clasficador multi-clase multimodal (5 clases) usando AutoGluon
@@ -26,14 +26,7 @@ https://colab.research.google.com/drive/1gUFre0aOY0Zyfm2ADFRlKQ4s5q2OVpQa?usp=sh
 
 Este código esta pensado para ejecutarse desde una instancia de google colab asi que el primer paso es realizar una copia del colab cuyo link se encuentra hasta arriba de este documento. Además, primero lee el archivo Requirement.txt ubicado en este mismo repositorio.
 
-Algunos archivos y bases de datos usados se encuentran en este mismo repositorio.
-
-Estos archivos han de colocarse en el mismo directorio en el que este su archivo .ipynb.
-
-Además, se han de decargar y extraer las tablas de las bases de datos utilizadas y cuyos links puede encontrar más abajo en este documento.
-
-Idealmente estos son los archivos que tienes que tener en tu directorio raiz: <br>
-![alt text](https://github.com/NLPActs/NLP_ActInt3/blob/main/Screenshot%202021-11-01%20013644.png)
+El único archivo usado se encuentran en este mismo repositorio. Las bases de datos se pueden generar conforme la ejecución del notebook (colab). Este archivo se pide subir al inicio de la ejecución del notebook, por lo que no es necesario subirlo de antemano al directorio raíz.
 
 
 Relativo a la ejecución, el primer modelo generado recibe como entrada una oración como cadena de texto (string) u oraciones como en una lista de cadenas de texto (string), así como datos tabulares (Género, Precio, Contenido de anuncios, Número de reviews, entre otros datos que pueden ser revisados en el enlace colab). Mientras que, el segundo modelo recibe adicionalmente imágenes por cada nueva entrada a predecir, así como otros datos tabulares distintos a los del primero modelo, tales como: tipo de mascota (gato o perro), edad, raza, sexo, color, vacunas recibidas, la salud, el precio o donación por adopción, entre otros datos administrativos.

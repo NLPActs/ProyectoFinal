@@ -1,0 +1,29 @@
+# Requerimientos del ambiente:
+
+Se recomienda la ejecución en un ambiente de google colab.
+Si se desea ejecutar localmente se recomienda el uso de Anaconda para el manejo del ambiente de python y de sus paquetes. Ademas se recomienda usar GNU Linux
+
+
+## Paquetes de python necesarios para la ejecución:
+
+python>=3.8
+
+kaggle
+numpy
+pandas
+seaborn
+matplotlib
+tqdm
+pygments
+google_play_scraper
+watermark
+pylab
+transformers
+multimodal_transformers
+scikit-learn
+tensorboard
+pytorch
+autogluon
+json
+logging
+typing
